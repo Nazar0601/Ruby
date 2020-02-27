@@ -1,0 +1,10 @@
+x1 = 12
+y1 = 14
+x2 = 25
+y2 = 17
+x3 = 20
+y3 = 10
+s = 0.5 * ((y1 * x2 + (y2 * x3) + (y3 * x1)) - (x1 * y2 + (x2 * y3) + (x3 * y1)))
+p = Math.sqrt((x2 - x1)**2 + (y2 - y1)**2) + Math.sqrt((x3 - x2)**2 + (y3 - y2)**2) + Math.sqrt((x3 - x1)**2 + (y3 - y1)**2)
+puts "Square = %.2f;" % [s]
+puts "Perimeter = %.2f;" % [p]
